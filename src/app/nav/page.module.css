@@ -1,0 +1,22 @@
+.navcontainer ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    background-color: #00BF63;
+    border-radius: 0px 0px 0px 40px;
+}
+.list{
+    display: flex;
+    gap: 40px;
+}
+.list li{
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.list a{
+    display: flex;
+    align-items: center;
+}

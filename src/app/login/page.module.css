@@ -1,0 +1,71 @@
+.logincontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.col2 img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.col2 form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.col2 form p{
+    color: black;
+}
+.col2 form input{
+    width: 300px;
+    height: 40px;
+    background-color: #ABA4A4;
+    border: 0;
+    border-radius: 20px;
+    color: black;
+}
+.col2 form button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #00BF63;
+    margin-top: 10px;
+}
+.col11{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.col11 p{
+    color: black;
+}
+.radio{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: #ABA4A4;
+}
+.remem{
+    display: flex;
+    align-items: center;
+}
+.bottom{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.signup{
+    color: #3F63EF;
+}
