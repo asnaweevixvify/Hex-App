@@ -2,6 +2,7 @@
 
 import styles from "./page.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -29,7 +30,7 @@ export default function page() {
             </div>
             <div className={styles.bottom}>
                 <p>don't have any account</p>
-                <p className={styles.signup}>sign up</p>
+                <Link href="/register"><p className={styles.signup}>sign up</p></Link>
             </div>
         </div>
     </div>

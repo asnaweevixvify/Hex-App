@@ -33,6 +33,7 @@
     border: 0;
     border-radius: 20px;
     color: black;
+    opacity: 25%;
 }
 .col2 form button{
     height: 40px;
@@ -54,6 +55,7 @@
     height: 15px;
     margin-right: 10px;
     background-color: #ABA4A4;
+    opacity: 25%;
 }
 .remem{
     display: flex;

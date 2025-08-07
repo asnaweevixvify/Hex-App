@@ -15,7 +15,7 @@ export default function Nav() {
                 <li>Lesson <RiArrowDropDownLine size={30}/></li>
                 <li>Exam <RiArrowDropDownLine size={30}/></li>
                 <Link href="/login"><li>Login</li></Link>
-                <li>Sign in</li>
+                <Link href="/register"><li>Sign up</li></Link>
             </div>
         </ul>
     </div>
