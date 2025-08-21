@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         </div>
         <div className={styles.box2} data-aos="fade-up"></div>
       </div>
-      <button data-aos="fade-up">Start</button>
+      <Link href="/started" data-aos="fade-up">Start</Link>
     </div>
   );
 }
